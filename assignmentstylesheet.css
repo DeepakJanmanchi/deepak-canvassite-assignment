@@ -1,0 +1,127 @@
+body{
+    margin: 0px 0px 20px 0px;
+
+}
+.navbar{
+    background-color:lightgray;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+.navbar-header{
+    float: left;
+    padding: 20px;
+    border-right: 2px solid grey;
+    margin: 0px;
+    font-family: 'chilanka';
+}
+.navbar-header a:hover{
+  
+   color: royalblue;
+   font-size: 50px;
+}
+.navbar-items{
+    margin: 30px 0px;
+    float: right;    
+}
+.navbar-item{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar-item a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item a:hover{
+    animation: backwards;
+    color: orangered;
+    font-size: 20px;
+}
+
+section:first-of-type{
+    background-color: #f9f9f9;
+}
+#herosection{    
+    height: auto;
+    text-align:  center;
+    margin:70px auto ;
+    width: 70%;
+}
+
+.column4{
+    overflow: hidden;
+    height: auto;
+    text-align: left;
+}
+
+
+.column4 p,span{
+    color: gray;
+}
+
+.column4 p{
+    font-size: 14px;
+}
+
+.container_12{
+    text-align:center;
+}
+
+.container_12 div{
+    margin: 10px;
+}
+
+#grid_6 span{
+    display: block;
+    padding: 20px;
+    font-size: 2em;
+    border-bottom: 3px solid white;
+    color: black;
+}
+
+#grid_6 span:last-child{
+    border-bottom: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 211px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+    
+  }
+  
+ 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-snapchat {
+    background: yellow;
+    color: white;
+  }
+  .fa-reddit {
+    background: red;
+    color: white;
+  }
+  .fa-instagram {
+    background:#e1306c;
+    color: white;
+  }
